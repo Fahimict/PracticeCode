@@ -1,4 +1,4 @@
-/// fibonacci check
+/// Find Nth fibonacci number
 #include<stdio.h>
 void main()
 {

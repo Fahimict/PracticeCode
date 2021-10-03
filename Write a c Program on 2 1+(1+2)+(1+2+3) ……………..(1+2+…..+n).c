@@ -1,4 +1,4 @@
-///Write a c Program on 2 1+(1+2)+(1+2+3) ……………..(1+2+…..+n)
+///Write a c Program on  1+(1+2)+(1+2+3) â€¦â€¦â€¦â€¦â€¦..(1+2+â€¦..+n)
 #include<stdio.h>
 void main()
 {

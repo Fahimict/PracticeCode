@@ -13,16 +13,14 @@ int main()
     {
         if(a[i]>max1)
             max1=a[i];
-    }
-    for(i=0;i<n;i++)
-    {
-        if(a[i]<max1)
+        else if(a[i]<max1)
             max2=a[i];
     }
+ 
     for(i=0;i<n;i++)
     {
         if(a[i]>max2&&a[i]<max1)
             max2=a[i];
     }
-    printf("%d",max2);
+    printf("Second max = %d",max2);
 }

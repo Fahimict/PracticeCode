@@ -11,12 +11,13 @@ int main()
 
     for(i=0;i<n;i++)
     {
-        if(a[i]>max1)
-            max1=a[i];
-        else if(a[i]<max1)
-            max2=a[i];
+        if(a[i]>max1){
+           max2=max1;
+           max1=a[i];
+        }
+
     }
- 
+
     for(i=0;i<n;i++)
     {
         if(a[i]>max2&&a[i]<max1)

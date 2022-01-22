@@ -3,7 +3,7 @@ void main()
 {
     int n,a[10]={0},r,i;
     scanf("%d",&n);
-    while(n)
+    while(n!=0)
     {
         r=n%10;
         a[r]++;

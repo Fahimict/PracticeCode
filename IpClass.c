@@ -2,13 +2,11 @@
 int main()
 {
     char ip[100];
-    int i=0,sum=0,x;
+    int i,sum=0;
     gets(ip);
-    while(ip[i]!='.')
+    for(i=0;ip[i]!='.';i++)
     {
-        x=ip[i]-48;
-        sum=sum*10+x;
-        i++;
+        sum=sum*10+ip[i]-48;
     }
     if(sum>=0&&sum<=127)
         printf("Class A\n");

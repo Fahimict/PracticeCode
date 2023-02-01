@@ -10,5 +10,6 @@ int main()
         scanf("%d",&a[i]);
     cin>>k;
     sort(a,a+n);
-        printf("%d ",a[k-1]);
+        printf("%dth smallest value  %d\n",k,a[k-1]);
+        printf("%dth largest value %d\n",k,a[n-k]);
 }

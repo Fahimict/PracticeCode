@@ -9,7 +9,7 @@ int main()
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
     cin>>k;
-    sort(a,a+n);
+    sort(a,a+n);/// Time complexity is O(nlogn)
         printf("%dth smallest value  %d\n",k,a[k-1]);
         printf("%dth largest value %d\n",k,a[n-k]);
 }

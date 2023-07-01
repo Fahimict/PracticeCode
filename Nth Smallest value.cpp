@@ -7,7 +7,7 @@ int main()
     cin>>n;
     int a[n];
     for(i=0;i<n;i++)
-        scanf("%d",&a[i]);
+       cin>>a[i];
     cin>>k;
     sort(a,a+n);/// Time complexity is O(nlogn)
         printf("%dth smallest value  %d\n",k,a[k-1]);
